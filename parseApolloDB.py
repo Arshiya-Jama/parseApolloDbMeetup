@@ -112,8 +112,7 @@ while True:
     try:
         choice = int(input("Enter your choice (1-7): "))
     except ValueError:
-        print(
-            "Invalid input! Please enter a number between 1 and 7.")
+        print("Invalid input! Please enter a number between 1 and 7.")
         continue
 
     if choice == 1:
@@ -132,5 +131,4 @@ while True:
         print("Exiting the program. Goodbye!")
         break
     else:
-        print(
-            "Invalid choice! Please select a valid option.")
+        print("Invalid choice! Please select a valid option.")
